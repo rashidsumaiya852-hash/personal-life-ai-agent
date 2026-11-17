@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+venv/
+env/
+
+# Environment and secrets
+.env
+*.env
+*.env.local
+
+# Databases
+backend/app.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Exclude backend
+/backend/
+
+# Exclude database
+/app.db
+
+# Exclude dependencies
+node_modules/
+venv/
+env/
+
+# Exclude environment credentials
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Exclude generated files
+frontend/dist/
+frontend/dist-ssr/
+__pycache__/
+*.pyc
+
+# Exclude system files
+.DS_Store
+Thumbs.db
